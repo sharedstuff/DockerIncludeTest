@@ -13,6 +13,7 @@ Ref.: https://github.com/compose-spec/compose-spec/blob/master/14-include.md
   docker-compose.compose_x.merger.yml
 
   compose_x/
+    docker-compose.yml
     docker-compose.merger.yml
   
     service_x/
