@@ -44,4 +44,7 @@ example:
 `/compose_a/docker-compose.yml`  
 with having 1 ".merger.yml" for each compose  
 example:  
-`docker-compose.compose_x.merger.yml`  
+`docker-compose.compose_a.merger.yml`  
+  
+## Real world example  
+Have a look at my other repos: https://github.com/sharedstuff/DockerIncludeExample  
