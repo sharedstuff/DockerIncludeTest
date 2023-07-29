@@ -1,0 +1,14 @@
+networks:
+  compose_b:
+
+services:
+  
+  compose_b-service_a:
+    depends_on:
+      - compose_b-service_b
+    networks:
+      - compose_b
+
+  compose_b-service_b:
+    networks:
+      - compose_b

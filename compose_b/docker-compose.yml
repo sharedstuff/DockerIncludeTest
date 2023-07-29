@@ -1,0 +1,10 @@
+include:
+   - path: 
+      - ./service_a/docker-compose.yml
+      - ./service_b/docker-compose.yml
+      - ./docker-compose.merger.yml
+
+#services: <-- doesnt work here - see .merger.yml
+  #service_b:
+    #depends_on:
+      #- service_a

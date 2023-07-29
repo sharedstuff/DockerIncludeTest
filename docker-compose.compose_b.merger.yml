@@ -1,0 +1,6 @@
+# just for demo - allready declared in compose_a
+services:
+  
+  compose_b-service_a:
+    depends_on:
+      - compose_b-service_b

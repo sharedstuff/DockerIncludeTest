@@ -1,0 +1,3 @@
+services:
+  compose_b-service_a:
+    image: traefik/whoami

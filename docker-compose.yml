@@ -1,4 +1,7 @@
 include:
-   - path: 
+   - path:
       - ./compose_a/docker-compose.yml
-      - ./docker-compose.merger.yml
+      - ./docker-compose.compose_a.merger.yml
+   - path:
+      - ./compose_b/docker-compose.yml
+      - ./docker-compose.compose_b.merger.yml
